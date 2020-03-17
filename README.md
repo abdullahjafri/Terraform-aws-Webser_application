@@ -24,7 +24,7 @@ SSL certificate, Availablity Zone are required to run this module
 | image\_id | n/a | `string` | `"ami-09a0f9e6eb0837438"` | no |
 | instance\_type | n/a | `string` | `"t2.micro"` | no |
 | key\_name | n/a | `string` | `"ssh-nekey"` | no |
-| max\_size | ################################# ####ASG & Launch COnfig Variables ################################### | `string` | `"3"` | no |
+| max\_size | Maximum size for autoscaling group | `string` | `"3"` | no |
 | min\_size | n/a | `string` | `"2"` | no |
 | name\_asg | n/a | `string` | `"Flaconi-asg_1"` | no |
 | name\_asg\_lc | n/a | `string` | `"Flaconi-lc"` | no |
